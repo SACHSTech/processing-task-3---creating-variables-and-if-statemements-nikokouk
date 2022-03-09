@@ -161,8 +161,6 @@ public class Sketch extends PApplet {
     // center of flower
     fill(191, 245, 245);
     ellipse(randomFlowerX, randomFlowerY, petalDiameter, petalDistance * 2);
-    
-       
        }
 
     size(400, 400);
@@ -172,8 +170,6 @@ public class Sketch extends PApplet {
     noLoop();
     
     //Tell the time
-
-    //String strTime = ("the time is : " str(hour % 12) + ":" + str(minute) + ":" + str(second) + " GST" , 1, 10);
     text ("the time is : " + hour + ":" + minute + ":" + second + " GST", 1, 10);
     
   }
